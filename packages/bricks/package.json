@@ -19,6 +19,8 @@
     "url": "git+https://github.com/trungduong0103/lerna-webpack.git"
   },
   "scripts": {
+    "prepare": "echo \"[bricks] - Ran prepare from lerna bootstrap\"",
+    "prepublish": "echo \"[bricks] - Ran prepublish from lerna bootstrap\"",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

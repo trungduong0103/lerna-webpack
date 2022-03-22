@@ -1,5 +1,5 @@
 {
-  "name": "scrolls",
+  "name": "@soggy-cookie/scrolls",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "trungduong0103@gmail.com <trungduong0103@gmail.com>",
@@ -21,6 +21,8 @@
     "url": "git+https://github.com/trungduong0103/lerna-webpack.git"
   },
   "scripts": {
+    "prepare": "echo \"[scrolls] - Ran prepare from lerna bootstrap\"",
+    "prepublish": "echo \"[scrolls] - Ran prepublish from lerna bootstrap\"",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

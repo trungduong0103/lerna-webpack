@@ -8,7 +8,8 @@
   ],
   "version": "independent",
   "scripts": {
-    "create-package": "lerna create"
+    "create-package": "lerna create",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
