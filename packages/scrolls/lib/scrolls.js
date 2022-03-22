@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = scrolls;
 
 function scrolls() {
-    // TODO
+  return "The sacred texts lie here";
 }
