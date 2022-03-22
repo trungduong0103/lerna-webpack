@@ -1,0 +1,27 @@
+{
+  "name": "@soggy-cookie/bricks",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "trungduong0103@gmail.com <trungduong0103@gmail.com>",
+  "homepage": "https://github.com/trungduong0103/lerna-webpack#readme",
+  "license": "MIT",
+  "main": "dist/bricks.js",
+  "module": "dist/bricks.module.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungduong0103/lerna-webpack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/trungduong0103/lerna-webpack/issues"
+  }
+}

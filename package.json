@@ -1,7 +1,18 @@
 {
   "name": "root",
   "private": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "scripts": {
+    "create-package": "lerna create"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }

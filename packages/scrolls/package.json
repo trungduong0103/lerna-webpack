@@ -1,0 +1,29 @@
+{
+  "name": "scrolls",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "trungduong0103@gmail.com <trungduong0103@gmail.com>",
+  "homepage": "https://github.com/trungduong0103/lerna-webpack#readme",
+  "license": "MIT",
+  "main": "lib/scrolls.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungduong0103/lerna-webpack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/trungduong0103/lerna-webpack/issues"
+  }
+}
